@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation_Framework_ATB7X"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.822">
+    <properties></properties>
+
+
+
+            <testcase
+                name="Get_call_1"
+                time="2.979"
+                classname="test.GET_API_call">
+            </testcase>
+            <testcase
+                name="Get_call_2"
+                time="0.843"
+                classname="test.GET_API_call">
+            </testcase>
+</testsuite>

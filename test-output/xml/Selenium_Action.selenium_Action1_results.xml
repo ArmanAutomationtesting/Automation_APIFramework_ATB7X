@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automation_Framework_ATB7X"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.793">
+    <properties></properties>
+
+
+
+            <testcase
+                name="drop_Down"
+                time="6.793"
+                classname="Selenium_Action.selenium_Action1">
+            </testcase>
+</testsuite>
