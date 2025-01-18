@@ -1,1 +1,0 @@
-{"uuid":"01017cec-4a34-45c7-9132-74c844637078","name":"Automation_Framework_ATB7X","children":["5a3d12c3-f912-44f7-94bd-af171b6a10a2"],"befores":[{"name":"webtable","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1735405118605,"stop":1735405120734}],"afters":[],"start":1735405118586,"stop":1735405121561}
