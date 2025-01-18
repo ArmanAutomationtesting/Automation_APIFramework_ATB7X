@@ -1,8 +1,7 @@
-package pojos.vwo;
+package pojos;
 
 public class TokenResponse {
-
-    String token;
+    private String token;
 
     public String getToken() {
         return token;

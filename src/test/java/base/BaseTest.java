@@ -1,5 +1,11 @@
 package base;
 
+// Common to All to TestCase
+//  Base Test Father -> Testcase - Son - Single Inheritance
+
+//import com.thetestingacademy.asserts.AssertActions;
+//import com.thetestingacademy.endpoints.APIConstants;
+//import com.thetestingacademy.modules.PayloadManager;
 import asserts.AssertActions;
 import endpoints.APIConstants;
 import io.restassured.RestAssured;

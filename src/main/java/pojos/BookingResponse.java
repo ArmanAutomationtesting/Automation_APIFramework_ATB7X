@@ -1,6 +1,7 @@
-package pojos.vwo;
+package pojos;
 
 public class BookingResponse {
+
     private Integer bookingid;
     private Booking booking;
 
@@ -20,4 +21,3 @@ public class BookingResponse {
         this.booking = booking;
     }
 }
-

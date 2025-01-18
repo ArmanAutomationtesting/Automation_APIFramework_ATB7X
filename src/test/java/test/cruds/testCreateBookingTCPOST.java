@@ -1,19 +1,31 @@
 package test.cruds;
 
+//import com.thetestingacademy.base.BaseTest;
+//import com.thetestingacademy.endpoints.APIConstants;
+//import com.thetestingacademy.pojos.BookingResponse;
+//import com.thetestingacademy.utils.PropertyReader;
 import base.BaseTest;
 import endpoints.APIConstants;
+import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import org.hamcrest.Matchers;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import pojos.vwo.BookingResponse;
+import pojos.BookingResponse;
 import utils.PropertyReader;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
-public class testCreateBookingTCPost extends BaseTest{
+public class testCreateBookingTCPOST extends BaseTest {
 
+    @Link(name = "Link to TC", url = "https://bugz.atlassian.net/browse/RBT-4")
+    @Issue("JIRA_RBT-4")
+    @TmsLink("RBT-4")
+    @Owner("Promode")
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify that POST request is working fine.")
     @Test
-    public void  testverifyCreatebookingPOST01(){
+    public void testVerifyCreateBookingPOST01() {
         requestSpecification
                 .basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
 

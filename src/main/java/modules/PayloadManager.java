@@ -2,7 +2,8 @@ package modules;
 
 import com.github.javafaker.Faker;
 import com.google.gson.Gson;
-import pojos.vwo.*;
+import pojos.*;
+//import pojos.vwo.*;
 
 public class PayloadManager {
     Gson gson;
@@ -102,6 +103,8 @@ public class PayloadManager {
         booking.setAdditionalneeds("Breakfast");
         return gson.toJson(booking);
     }
+
+
 }
 
 

@@ -1,4 +1,4 @@
-package pojos.vwo;
+package pojos;
 
 public class Auth {
     private String username;
